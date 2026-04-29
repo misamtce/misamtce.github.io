@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISA MAMTECH WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+              <a href="homepage.html"><img src="photo_2026-03-06_06-34-45.jpg" class="logo"></a>
+
+             <div class="search">
+                <input class="srch" type="search" name="" placeholder="Search for info here">
+                <a href="info.html"><button class="btn">Search</button></a>
+             </div>  
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="homepage.html" class="">HOME</a></li>
+                        <li><a href="info.html" class="">INFO HUB</a></li>
+                        <li><a href="about.html" class="">ABOUT US</a></li>
+                        <li><a href="contact.html" class="">CONTACT</a></li>
+                    </ul> 
+                </div>
+                
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>WELCOME TO <br>MATHEMATICS & ICT STUDENT ASSOCIATION<br><span> OF MAMTECH</span></h1>
+    <p>Welcome to the most prestigious Association in the field of<br> Mathematics and ICT.</p>
+    <a href="about.html" class="hero-btn">VISIT OUR NAMES</a>
+</div>
+
+
+    </section>
+
+    <!---info section--->
+    <section class="info">
+     <h1>INFO HUB</h1>
+     <P>Mathematics & ICT Association of MAMTECH is dedicated to promoting 
+        <br>excellence in mathematical and technological education.</P>
+        <div class="row">
+            <div class="info-col">
+                <h2>OUR MISSION</h2>
+                <p>Our mission is to foster a vibrant community of students and professionals
+                     passionate about mathematics and ICT, providing them with opportunities
+                      for growth, collaboration, and innovation.</p>
+            </div>
+            <div class="info-col">
+                <h2>OUR VISION</h2>
+                <p>Our vision is to be a leading association that inspires and empowers individuals 
+                    in the fields of mathematics and ICT, contributing to the advancement 
+                    of knowledge and technology in our society.</p>
+            </div>
+            <div class="info-col">
+                <h2>OUR VALUES</h2>
+                <p>We value integrity, collaboration, innovation, and inclusivity. We strive
+                     to create a supportive and inclusive environment where members
+                      can thrive and contribute to the growth of mathematics and ICT.</p>
+            </div>
+        </div>   
+    </section>
+
+    <!---activities section--->
+    <section class="activities">
+        <h1>OUR ACTIVITIES</h1>
+        <p>We organize a variety of activities, including workshops, seminars, coding competitions, and guest lectures,
+        <br> to provide our members with opportunities to learn, network, and grow in their passion for mathematics and ICT.</p>
+        <div class="row">
+            <div class="activities-col">
+                <a href="misa-week.html"> <img src="photo_2026-02-20_11-51-58.jpg">
+                <div class="layer">  
+                  <h2>MISA WEEK CELEBRATION</h2></a>
+            </div>
+        </div>
+                        <div class="activities-col">
+                 <img src="classroom_activities.jpg" height="350px" width="300px" >
+                <div class="layer">  
+                  <h2>CLASSROOM ACTIVITIES</h2>
+                </div>
+            </div>
+                        <div class="activities-col">
+                 <img src="out_a.jpg">
+                <div class="layer">  
+                  <h2>FIELD ACTIVITIES</h2>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!---about us section-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Mathematics and ICT Association of MAMTECH is a student-led organization dedicated to promoting excellence
+        <br> in mathematical and technological education. We provide a platform for students to connect,
+         <br> collaborate, and grow in their passion for mathematics and ICT.</p>
+        <div class="icons">
+          <a href="https://www.facebook.com"><i  class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+            <a href="https://chat.whatsapp.com/KJfBAfbUdJx36XvjZiiYHm?mode=gi_t"><i class="fa fa-whatsapp"></i></a>
+             <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+             <a href="https://www.tiktok.com"><i class="fa fa-TikTOK"></i></a>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Class of 2024/25 MISA MAMTECH</p>
+    </section>
+
+   <!---this is a simple script for the mobile menu--->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

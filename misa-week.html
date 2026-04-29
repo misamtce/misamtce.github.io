@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISA MAMTECH WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="misa">
+        <nav>
+              <a href="homepage.html"><img src="photo_2026-03-06_06-34-45.jpg" class="logo"></a>
+
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html" class="">HOME</a></li>
+                        <li><a href="info.html" class="">INFO HUB</a></li>
+                        <li><a href="about.html" class="">ABOUT US</a></li>
+                        <li><a href="contact.html" class="">CONTACT</a></li>
+                    </ul> 
+                </div>
+                
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+    </section>
+    <section class="info">
+        <h1>MISA WEEK CELEBRATION</h1>
+        <p>Join us for a week of celebration, learning, and fun as we commemorate the<br>
+             achievements and contributions of our members in the fields of <br>
+             mathematics and ICT. MISA Week is a time to come together,<br>
+              share knowledge, and inspire each other to reach new heights<br>
+               in our academic and professional journeys.</p>
+
+        <div>
+            <video src="video_2026-04-29_22-00-35.mp4" controls height="400px" width="500vw"></video>
+        </div>
+
+
+
+
+    </section>
+
+    <!---about us section-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Mathematics and ICT Association of MAMTECH is a student-led organization dedicated to promoting excellence
+        <br> in mathematical and technological education. We provide a platform for students to connect,
+         <br> collaborate, and grow in their passion for mathematics and ICT.</p>
+        <div class="icons">
+          <a href="https://www.facebook.com"><i  class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+            <a href="https://chat.whatsapp.com/KJfBAfbUdJx36XvjZiiYHm?mode=gi_t"><i class="fa fa-whatsapp"></i></a>
+             <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+             <a href="https://www.tiktok.com"><i class="fa fa-TikTOK"></i></a>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Class of 2024/25 MISA MAMTECH</p>
+    </section>
+
+   <!---this is a simple script for the mobile menu--->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
