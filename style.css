@@ -13,13 +13,13 @@
 }
 @keyframes slide{
     0%{
-       background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(photo_2026-03-05_10-37-25.jpg);
+       background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(photo_2026-03-05_10-37-25.jpg);
         }
     50%{
-        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(out_a.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(out_a.jpg);
         }
     100%{
-        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(classroom_activities.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(classroom_activities.jpg);
         }
  }
 nav{
