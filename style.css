@@ -5,12 +5,23 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url(photo_2026-03-05_10-37-25.jpg);
     background-position: center;
     background-size: cover ;
     position: relative;
+    animation: 20s slide infinite;
 
 }
+@keyframes slide{
+    0%{
+       background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(photo_2026-03-05_10-37-25.jpg);
+        }
+    50%{
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(out_a.jpg);
+        }
+    100%{
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(classroom_activities.jpg);
+        }
+ }
 nav{
     display:flex;
     padding: 0.5% 6%;
