@@ -21,13 +21,13 @@ html, body {
 }
 @keyframes slide{
     0%{
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(photo_2026-03-05_10-37-25.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photo_2026-03-05_10-37-25.jpg);
     }
     50%{
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(out_a.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(out_a.jpg);
     }
     100%{
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(classroom_activities.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(classroom_activities.jpg);
     }
 }
 nav{
@@ -173,7 +173,7 @@ nav img{
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    border: 3px solid #06B6D4;
+    border: 1px solid #06B6D4;
     padding: 10px 30px;
     font-size: 16px;
     font-family:'Times New Roman';
@@ -453,7 +453,7 @@ nav .fa{
 .field-act{
     min-height: 70vh;
     width: 100%;
-    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(photo_2026-04-30_17-38-08.jpg);
+    background: linear-gradient(rgba(4,9,30,0.9), rgba(4,9,30,0.9)), url(photo_2026-04-30_17-38-08.jpg);
     background-position: center;
     background-size: 70% 100%;
     position: relative;
@@ -475,7 +475,7 @@ nav .fa{
         z-index: 10;
     }
     nav img{
-        width: 100px;
+        width: 70px;
     }
     .search{
         order: 3;
