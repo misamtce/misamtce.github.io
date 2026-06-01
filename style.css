@@ -21,13 +21,13 @@ html, body {
 }
 @keyframes slide{
     0%{
-        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photo_2026-03-05_10-37-25.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(photo_2026-03-05_10-37-25.jpg);
     }
     50%{
-        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(out_a.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(out_a.jpg);
     }
     100%{
-        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(classroom_activities.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(classroom_activities.jpg);
     }
 }
 nav{
@@ -414,7 +414,7 @@ nav .fa{
 .misa {
     min-height: 70vh;
     width: 100%;
-    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(photo_2026-03-18_15-28-52.jpg);
+    background: linear-gradient(rgba(4,9,30,0.3), rgba(4,9,30,0.3)), url(photo_2026-03-18_15-28-52.jpg);
     background-position: center;
     background-size: 70% 100%;
     position: relative;
@@ -428,7 +428,7 @@ nav .fa{
 }
 .gallery img,
 .gallery video{
-    width: 100%;
+    width: 300px;
     height: 450px;
     object-fit: cover;
     border-radius: 8px;
@@ -453,7 +453,7 @@ nav .fa{
 .field-act{
     min-height: 70vh;
     width: 100%;
-    background: linear-gradient(rgba(4,9,30,0.9), rgba(4,9,30,0.9)), url(photo_2026-04-30_17-38-08.jpg);
+    background: linear-gradient(rgba(4,9,30,0.3), rgba(4,9,30,0.3)), url(photo_2026-04-30_17-38-08.jpg);
     background-position: center;
     background-size: 70% 100%;
     position: relative;
