@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISA MAMTECH WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+              <a href="index.html"><img src="misa-logo.jpg"></a>
+
+              <div class="menu-overlay" id="menuOverlay" onclick="hideMenu()"></div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html" class="active">HOME</a></li>
+                        <li><a href="info.html" class="">INFO HUB</a></li>
+                        <li><a href="about.html" class="">ABOUT US</a></li>
+                        <li><a href="contact.html" class="">CONTACT</a></li>
+                    </ul> 
+                </div>
+                
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            <form class="search" action="https://www.google.com/search" method="get" target="_blank">
+                <input class="srch" type="search" name="q" placeholder="Type to search" required>
+                <input type="hidden" name="as_sitesearch" value="yourdomain.com">
+                <button type="submit" class="btn">search
+                    <i class="fa fa-search"></i>
+                </button></a>
+            </form>
+        </nav>
+<div class="text-box">
+    <h1>WELCOME TO <br>MATHEMATICS & ICT STUDENT ASSOCIATION<br><span> OF MAMTECH</span></h1>
+    <p>MOTTO: The Most Efficient Tool In This World</p>
+    <a href="contact.html" class="hero-btn">GET IN TOUCH WITH US</a>
+</div>
+
+
+    </section>
+
+    <!---info section--->
+    <section class="info">
+     <h1>INFO HUB</h1>
+     <P>Mathematics & ICT Association of MAMTECH is dedicated to promoting 
+        <br>excellence in mathematical and technological education.</P>
+        <div class="row">
+            <div class="info-col">
+                <h2>OUR MISSION</h2>
+                <p>Our mission is to foster a vibrant community of students and professionals
+                     passionate about mathematics and ICT, providing them with opportunities
+                      for growth, collaboration, and innovation.</p>
+            </div>
+            <div class="info-col">
+                <h2>OUR VISION</h2>
+                <p>Our vision is to be a leading association that inspires and empowers individuals 
+                    in the fields of mathematics and ICT, contributing to the advancement 
+                    of knowledge and technology in our society.</p>
+            </div>
+            <div class="info-col">
+                <h2>OUR VALUES</h2>
+                <p>We value integrity, collaboration, innovation, and inclusivity. We strive
+                     to create a supportive and inclusive environment where members
+                      can thrive and contribute to the growth of mathematics and ICT.</p>
+            </div>
+        </div>   
+    </section>
+
+    <!---activities section--->
+    <section class="activities">
+        <h1>OUR ACTIVITIES</h1>
+        <p>We organize a variety of activities, including workshops, seminars, coding competitions, and guest lectures,
+        <br> to provide our members with opportunities to learn, network, and grow in their passion for mathematics and ICT.</p>
+        <div class="row">
+            <div class="activities-col">
+                <a href="misa-week.html"> <img src="photo_2026-02-20_11-51-58.jpg" height="500px" width="300px">
+            <div class="layer">  
+                  <h2>MISA WEEK CELEBRATION</h2>
+              </div></a>
+        </div>
+             <div class="activities-col">
+                <a href="class-act.html"> <img src="photo_2026-04-30_17-38-27.jpg" height="500px" width="300px" >
+                <div class="layer">  
+                  <h2>CLASSROOM ACTIVITIES</h2>
+                </div></a>
+            </div>
+            <div class="activities-col">
+                <a href="field-act.html"> <img src="des..jpg" height="500px" width="300px">
+                <div class="layer">  
+                  <h2>FIELD ACTIVITIES</h2>
+                </div></a>
+            </div>
+
+        </div>
+    </section>
+    <!---contact section-->
+    <section class="info">
+        <h1>GET IN TOUCH WITH US</h1>
+        <p>Email: mamtechmisa@gmail.com</p>
+        <p>Whatsapp: +233558179986</p>
+        <p>Phone: 0558179986</p>
+        <p>Address: P.O. BOX 31, MAMPONG-ASHANTI REGION</p>
+    </section>
+
+    <!---about us section-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Mathematics and ICT Association of MAMTECH is a student-led organization dedicated to promoting excellence
+        <br> in mathematical and technological education. We provide a platform for students to connect,
+         <br> collaborate, and grow in their passion for mathematics and ICT.</p>
+        <div class="icons">
+          <a href="https://www.facebook.com"><i  class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://chat.whatsapp.com/KJfBAfbUdJx36XvjZiiYHm?mode=gi_t"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@nana_kwame_desmond"><i class="fab fa-tiktok"></i></a>
+             <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Class of 2024/25 MISA MAMTECH</p>
+    </section>
+
+   <!---this is a simple script for the mobile menu--->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    var menuOverlay = document.getElementById("menuOverlay");
+
+    function showMenu(){
+    navLinks.classList.add("show-menu");
+    menuOverlay.classList.add("show");
+    document.body.style.overflow ="hidden";
+    }
+    function hideMenu(){
+        navLinks.classList.remove("show-menu");
+        menuOverlay.classList.remove("show");
+        document.body.style.overflow = "auto";
+   }
+</script>
+</body>
+</html>
