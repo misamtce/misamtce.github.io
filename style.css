@@ -428,7 +428,7 @@ nav .fa{
 }
 .gallery img,
 .gallery video{
-    width: 300px;
+    width: 100%;
     height: 450px;
     object-fit: cover;
     border-radius: 8px;
