@@ -50,9 +50,42 @@ nav{
     float: none;
     margin-left: 0;
     padding-top: 0;
-    display: flex;
     order: 3;
     flex: 1 1 100%;
+}
+/* --- Google CSE overrides --- */
+.search .gsc-control-cse {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.search .gsc-search-button-v2 {
+    background-color: #ff7200 !important;
+    border-radius: 5px !important;
+    border: none !important;
+    padding: 10px 15px !important;
+    cursor: pointer;
+}
+
+.search .gsc-input-box {
+    border: 1px solid #ff7200 !important;
+    border-radius: 20px !important;
+}
+
+.search input.gsc-input {
+    background: transparent !important;
+    color: white !important;
+    font-size: 16px !important;
+}
+
+.search .gsc-input-box-focus {
+    box-shadow: 0 0 5px #ff7200 !important;
+}
+
+/* Hide Google branding if you want */
+.search .gcsc-branding {
+    display: none !important;
 }
 .srch{
     font-family:'Times New Roman';
