@@ -45,7 +45,7 @@ nav{
 }
 
 nav img{
-    width: 90px;
+    width: 80px;
     box-shadow: 10px 20px 100px rgba(0,0,0,1);
 
 }
@@ -62,7 +62,7 @@ nav img{
 .nav-links ul li a{
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
     font-family:Arial;
     font-weight: 700;
     box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
@@ -455,7 +455,7 @@ nav .fa{
         z-index: 10;
     }
     nav img{
-        width: 80px;
+        width: 90px;
     }
     
     .nav-links{
