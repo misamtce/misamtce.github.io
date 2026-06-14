@@ -112,7 +112,7 @@ nav img{
 }
 .text-box p{
     margin: 10px 0 30px;
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     padding: 0 15px;
 }
@@ -123,16 +123,16 @@ nav img{
     color: #fff;
     border: 3px solid #06B6D4;
     padding: 10px 30px;
-    font-size: 16px;
+    font-size: 14px;
     font-family:'Times New Roman';
     position: relative;
     background: transparent;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 700;
 }
 .hero-btn:hover{
     background: #6392c4;
-    border: 3px solid #06B6D4;
+    border: 1px solid #06B6D4;
     transition: 1s;
 }
 nav .fa{
@@ -148,13 +148,13 @@ nav .fa{
     background: #dcdfe1;
 }
 .info h1{
-    font-size: 40px;
+    font-size: 30px;
     color: #2d2a2a;
     margin-bottom: 20px;
     font-weight:700;
 }
 .info p{
-    font-size: 30px;
+    font-size: 25px;
     color: #924545;
     line-height: 30px;
     font-weight: 500;
@@ -175,10 +175,10 @@ nav .fa{
     transition: 0.5s;
 }
 .info-col h2{
-    font-size: 24px;
+    font-size: 20px;
     color: #2d2a2a;
     margin-bottom: 15px;
-    font-weight: 800;
+    font-weight: 600;
 }   
 .info-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
@@ -191,12 +191,12 @@ nav .fa{
     text-align: center;
 }
 .location h2{
-    font-size: 36px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 .location p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 .map-container{
@@ -231,15 +231,15 @@ nav .fa{
     position: relative;
 }
 .activities h1{
-    font-size: 40px;
-    font-weight: 900;
+    font-size: 30px;
+    font-weight: 700;
     color: #ffffff;
 }
 .activities p{
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;
     line-height: 30px;
-    font-weight: 700;
+    font-weight: 600;
     padding: 10px;
 }
 
@@ -284,9 +284,9 @@ nav .fa{
 }
 .layer h2 {
     width: 100%;
-    font-weight: 700;
+    font-weight: 600;
     color:#fff;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     margin: 0 0 8px 0;
     line-height: 1.0;
@@ -315,14 +315,14 @@ nav .fa{
     background-color: #1E3A8A;
 }
 .footer h4{
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
     margin-bottom: 25px;
    margin-top: 0;
    
 }
 .footer p{
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 0;
     line-height: 1.6;
 }
@@ -330,7 +330,7 @@ nav .fa{
     padding-bottom: 0;
 }
 .icons .fab{
-    font-size: 28px;
+    font-size: 20px;
     margin: 0 12px;
     cursor: pointer;
     padding: 10px 0;
@@ -355,8 +355,8 @@ nav .fa{
     color: #fff;
 }
 .sub-header h1{
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
     padding-top: 20%;
     font-family: 'Time New Roman';
 }
@@ -372,8 +372,8 @@ nav .fa{
     
 }
 .find{
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 600;
     font-family: 'Times New Roman';
     padding-top: 20%;
     text-align: center;
@@ -455,11 +455,7 @@ nav .fa{
         z-index: 10;
     }
     nav img{
-        width: 100px;
-    }
-    .search{
-        order: 3;
-        margin-top: 10px;
+        width: 80px;
     }
     
     .nav-links{
