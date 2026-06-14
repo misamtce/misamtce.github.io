@@ -17,7 +17,7 @@ html, body {
     background-position: center;
     background-size: cover;
     position: relative;
-    animation: 30s slide infinite;
+    animation: 40s slide infinite;
 }
 
 @keyframes slide{
