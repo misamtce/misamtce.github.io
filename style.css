@@ -45,7 +45,7 @@ nav{
 }
 
 nav img{
-    width: 120px;
+    width: 90px;
     box-shadow: 10px 20px 100px rgba(0,0,0,1);
 
 }
@@ -64,7 +64,7 @@ nav img{
     text-decoration: none;
     font-size: 22px;
     font-family:Arial;
-    font-weight: 900;
+    font-weight: 700;
     box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
     
 }
@@ -78,7 +78,7 @@ nav img{
     transition: 0.5s;
 }
 .nav-links ul li:hover::after{
-    width: 70%;
+    width: 60%;
 }
 .nav-links ul li a.active{
     color:#06B6D4;
@@ -101,14 +101,14 @@ nav img{
     text-align: center;
 }
 .text-box span{
-    font-size: 40px;
+    font-size: 30px;
     color: #06B6D4;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 .text-box h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 .text-box p{
     margin: 10px 0 30px;
