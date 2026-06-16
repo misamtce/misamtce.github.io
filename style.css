@@ -329,6 +329,10 @@ nav .fa{
 .footer p:last-child{
     padding-bottom: 0;
 }
+.footer span{
+    font-size: 10px;
+    color:#fff;
+}
 .icons .fab{
     font-size: 20px;
     margin: 0 12px;
